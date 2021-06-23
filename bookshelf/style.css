@@ -1,0 +1,737 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+input,
+button {
+    font-size: 14px;
+}
+
+
+main {
+    width: 90%;
+    margin: auto;
+}
+
+header {
+    padding: 25px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+header > h2 {
+    color : #e75663;
+}
+
+
+.navbar {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar li {
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.navbar li:last-child {
+    margin-right: 0;
+}
+.navbar li>a {
+    text-decoration: none;
+    color: black;
+}
+
+.beranda {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 30px;
+}
+
+.content-beranda {
+    width: 100%;
+    margin-left: 140px;
+    padding: 50px 40px;
+}
+
+
+
+.img-beranda {
+    width: 80%;
+}
+
+.gambar {
+    max-width: 100%;
+}
+
+.service {
+    background-color: #c1c7ff;;
+    padding: 60px 120px 80px 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width:100%;
+}
+
+.content-beranda {
+    text-align: center;
+}
+
+.content-service {
+    display: flex;
+    list-style-type: none;
+    height: 100%;
+    margin-top: 20px;
+    width: 100%;
+}
+
+
+.service-list {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    align-items: center;
+    padding: 20px 20px;
+    background-color: white;
+    justify-content: center;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.img-list {
+    height: 50%;
+    width: 35%;
+    margin: auto;
+    text-align: center;
+}
+
+.gambar-1 {
+    height: 100%;
+    max-width: 100%;
+}
+
+.isi-service-list { 
+    text-align: center;
+    margin-top: 12px;
+}
+
+.isi-service-list p {
+    line-height: 1.2em;
+    font-size: 14px;
+}
+
+.add { 
+    margin: 10px auto 20px auto;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+    width: 80%;
+    align-items: center;
+}
+
+.add-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    width: 100%;
+    height: 100%;
+}
+
+.add-book {
+    padding: 10px 30px 30px 30px;
+    width: 100%;
+    height: 100%;
+    background-color: #c1c7ff;
+    border-radius: 20px;
+}
+
+.img-book {
+    width: 65%;
+    padding: 20px 15px;
+    height: 100%;
+    margin-left: 50px;
+    
+}
+
+.view {
+    margin: 5px auto 20px auto;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+    align-items: center;
+    width: 100%;
+    background-color: #c1c7ff;
+}
+
+.view-list {
+    width: 100%;
+    margin-top: 30px;
+    padding: 20px 30px 0 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#rak {
+    display: flex;
+    width: 100%;
+}
+
+.rak_judul {
+    text-align: center;
+}
+
+.book_shelf_1 {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    width:100%;
+    background-color: white;
+    border-radius: 6px;
+}
+
+.mr {
+    margin-right: 20px;
+}
+
+
+.input_section {
+    display: flex;
+    padding: 10px 0 10px 15px;
+    flex-direction: column;
+    border: 1px black solid;
+    border-radius: 15px;
+}
+
+.input_section>h3 {
+    text-align: center;
+    padding: 5px;
+}
+
+.input {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+#inputBookTitle,
+#inputBookAuthor,
+#inputBookYear {
+    padding: 5px;
+    border: 1px solid #686b6d;
+}
+
+
+#identitas, #status {
+    border-bottom: 1px solid  #d4d4cc;
+    padding: 8px;
+    margin: 20px 15px 10px auto;
+}
+
+
+.search {
+    margin: 5px auto 30px auto;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+    align-items: center;
+    width: 100%;
+}
+
+#hasil_search {
+    width: 100%;
+    height: 100%;
+    margin: 20px auto 8px auto;
+}
+
+#hasil_search>h2 {
+    text-align: center;
+}
+
+.h-box {
+    height: 20px;
+    padding: 40px;
+}
+.search_section {
+    padding: 10px 0;
+    margin: 0 auto 20px auto;
+    width: 60%;
+}
+
+.search_section h2 {
+    text-align: center;
+}
+
+#search_form {
+    margin-top: 15px;
+    display: flex;
+}
+
+
+.book_list {
+    padding: 10px 15px 10px 15px;
+}
+
+.judul_search {
+    margin-right: 20px;
+    padding:5px 10px;
+    text-align: center;
+}
+
+#search_judul {
+    width: 100%;
+    margin-right: 10px;
+    padding:5px 10px;
+}
+
+
+#searchSubmit {
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    background-color: transparent;
+    padding: 5px;
+    margin-left: 0;
+}
+
+
+.book_item {
+    background-color: lightblue;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 15px;
+    display: flex;
+
+}
+
+.books_item_info {
+    width: 100%;
+}
+
+
+.search_item {
+    background-color: lightblue;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    width: 100%;
+}
+
+.search_info {
+    display: flex;
+    align-items: center;
+}
+
+.info_baca {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.merah,
+.hijau {
+    margin-right: 10px;
+    width: 4%;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.merah {
+    background-color: red;
+}
+
+.hijau {
+    background-color: green;
+}
+
+.font-merah {
+    color: red;
+}
+
+.delete {
+    border: 1px solid #686b6d;
+    border-radius: 15px;
+    background-color: lightcoral;
+    text-decoration: none;
+    margin: 0 auto;
+    padding: 3px;
+    width: 45%;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.delete:hover {
+    color:lightcoral;
+    background-color: white;
+}
+.btn-baca {
+    border: 1px solid #686b6d;
+    border-radius: 15px;
+    background-color: #2EE59D;
+    text-decoration: none;
+    padding: 4px;
+    width: 45%;
+    margin: 0 auto 5px auto;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.btn-baca:hover {
+    color:#14b675;
+    background-color: white;
+}
+
+.btn-nobaca {
+    border: 1px solid #686b6d;
+    border-radius: 15px;
+    background-color: lightgray;
+    text-decoration: none;
+    padding: 4px;
+    width: 45%;
+    margin: 0 auto 5px auto;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.btn-nobaca:hover {
+    color: rgb(124, 122, 122);
+    background-color: white;
+}
+.action {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#pesan {
+    margin-top: 50px;
+}
+
+#pesan>p {
+    background-color: lightcoral;
+    color: black;
+    font-size: 14px;
+    padding: 8px;
+    width: 100%;
+    font-weight: bold;
+}
+
+.Tambah {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-right: 8%;
+    float: right;
+    cursor: pointer;
+    background-color: white;
+    border: 1px   #d4d4cc solid;
+    border-radius: 20px;
+    color: #1E81b0;
+    font-weight: bold;
+
+}
+
+.Tambah:hover {
+    color : white;
+    background-color: #1E81b0;
+}
+
+
+footer {
+    margin: 10px auto 0 auto;
+    background-color: #cfcfcf;
+    text-align: center;
+    padding: 12px;
+}
+
+.bar-menu {
+    display: none;
+}
+
+.bar {
+    display: none;
+}
+
+.tampil {
+    display: block;
+}
+
+
+@media screen and (max-width: 992px) {
+
+    
+    header {
+        max-width: 100%;
+        margin: auto;
+        padding: 10px 30px 10px 30px;
+    }
+
+    header h1 {
+        float: left;
+    }
+
+    
+
+
+    header nav {
+        display: none;
+    }
+
+    .menu {
+        float: right;
+        display: block;
+        width: 100%;
+        background-color: #949cdf;
+    }
+
+    .bar {
+        display: block;
+        float: right;
+        position: relative;
+    }
+
+
+    .bar-menu {
+        position: absolute;
+        width: 100%;
+        right: 0;
+        top: 60px;
+        background-color: #d0d4ff;
+        list-style-type: none;
+
+    }
+
+    .no-tampil {
+        display: none;
+    }
+
+    .tampil {
+        display: block;
+    }
+
+    .bar-menu li {
+        padding: 7px 29px;
+    }
+
+    .bar-menu li:hover {
+        background-color: #a8afff;
+    }
+
+    .bar-menu li a {
+        margin-bottom: 10px;
+        text-decoration: none;
+        color: black;
+    }
+
+    main {
+        padding-bottom: 0;
+    }
+
+    .beranda {
+        flex-direction: column;
+    }
+
+    .img-beranda {
+        margin: 0 auto;
+    }
+
+    .content-beranda {
+        margin: 0 auto;
+        padding: 25px 0 0 0;
+    }
+
+    .container {
+        max-width: 100%;
+        margin: auto;
+        padding: 0;
+    }
+
+    .service-list { 
+        padding: 20px 20px;
+        margin: 20px auto;
+        width:  80%;
+        height: 200px;
+    }
+
+    .service {
+        padding: 20px 0;
+        margin: 10px auto;
+        height: 20%;
+        text-align: center;
+    }
+
+    .img-list {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .content-service {
+        margin: 0 auto;
+        flex-direction: column;
+    }
+
+    
+    .add {
+        flex-direction: column;
+        margin:0 auto;
+        width: 100%;
+    }
+
+    .add-list {
+        flex-direction: column;
+        justify-content: center;
+        padding:10px 10px;
+    }
+
+    .img-book {
+        order:1;
+        padding:0;
+        margin: 10px auto 25px auto;
+        height: 150px;
+        width: 80%;
+        text-align: center;
+    }
+
+    .add-book {
+        order: 2;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+
+    
+.input {
+    width: 100%;
+    text-align: left;
+}
+
+.input_inline {
+    text-align: left;
+    margin-bottom: 10px;
+}
+.Tambah {
+    float: none;
+    margin:10px auto;
+}
+
+#rak {
+    flex-direction: column;
+    height: 100%;
+}
+
+    .rak_judul h3 {
+        font-size: 14px;
+    }
+
+    .search {
+        justify-content: center;
+    }
+
+    #search_form {
+        margin:10px auto;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .search_section {
+        width:100%;
+        margin:15px auto;
+    }
+
+    .search {
+        padding:0;
+    }
+
+    .judul_search {
+        margin-right: 20px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    #search_judul {
+        margin-right: 10px;
+        width: 60%;
+    }
+
+    .h-box {
+        height: 30px;
+        padding: 40px;
+    }
+
+}
+ @media screen and (max-width: 600px) {
+
+
+
+    .btn-baca, .btn-nobaca,  .delete  {
+        width: 70%;
+        font-size: 12px;
+    }
+
+    .judul_search {
+        margin-right: 30px;
+    }
+
+    .info_baca {
+        width: 40%;
+        font-size: 13px;
+    }
+
+    .merah {
+        padding:6px;
+    }
+
+    .search_item { 
+        font-size: 14px;
+    }
+    
+    .img-list {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .c-2 {
+        width: 50%;
+    }
+
+    .judul_search {
+        margin-right: 8px;
+    }
+
+    #search_judul {
+        margin-right: 10px;
+        width: 55%;
+    }
+
+    #search_form {
+        margin: 14px auto;
+    }
+
+    .search_section {
+        padding:0;
+        margin:15px auto;
+    }
+
+
+  }
+ 
