@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://kit.fontawesome.com/7e72939074.js" crossorigin="anonymous"></script>
+        <title> Web Dasar </title>
+    </head>
+    <body>
+        <header>
+            <h1> FoodTruck </h1>
+            <nav>
+                <ul class="navbar">
+                    <li><a href="#beranda"> Beranda </a></li>
+                    <li><a href="#produk"> Produk   </a></li>
+                    <li><a href="#alasan"> Alasan </a></li>
+                    <li><a href="#kontak"> Kontak  </a></li>
+                    <li><a href="#tentang"> Tentang Saya  </a></li>
+                </ul>
+            </nav>
+            <div class="bar" id="bar" onclick="menu()"> 
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="bar-menu no-tampil" id="bar-menu">
+                <li><a href="#beranda"> Beranda </a></li>
+                <li><a href="#produk"> Produk   </a></li>
+                <li><a href="#alasan"> Alasan </a></li>
+                <li><a href="#kontak"> Kontak  </a></li>
+                <li><a href="#tentang"> Tentang Saya  </a></li>
+            </ul>
+        </header>
+        <main>
+            <div id="content">
+            <article class="beranda warna-beranda" id="beranda">
+                <div class="img-beranda"> 
+                <img src="assets/image/foodtruck.svg" alt="foodtruck" class="gambar">
+                </div>
+                <div class="content-beranda">
+                   <h1> Order foodtruck ! </h1>  
+                   <p> Solusi jasa makanan flexible dan modern </p>
+                </div>
+            </article>
+            <article class="produk" id="produk">
+                <h2> Produk Kami </h2>
+             <article class="drink">
+                <div class="img-drink"> 
+                    <img src="assets/image/tea.svg" alt="listmakan" class="gambar">
+                    </div>
+                <div class="content-drink">
+                    <h3> temukan minuman favoritmu ! </h3>  
+                    <p> mulai dari tea hingga coke, dapat kamu pesan  </p>
+                 </div>
+            </article>
+            <article class="food">
+                <div class="content-food">
+                    <h3> temukan makanan favoritmu ! </h3>  
+                    <p> mulai dari snack hingga cake, dapat kamu pesan </p>
+                 </div>
+                <div class="img-food"> 
+                    <img src="assets/image/burger.svg" alt="listmakan" class="gambar">
+                    </div>
+            </article> 
+        </article>
+            <article class="reason" id="alasan">
+                <h2> Alasan memilih kami </h2>
+                <ul class="content-reason">
+                    <li class="content-reason-1"> 
+                        <div class="img-reason c-1">
+                            <img src="assets/image/harga.svg" alt="" class="gambar-1 g-1">
+                        </div>
+                        <div class="isi-content-reason"> 
+                         <h3> Harga terjangkau </h3>
+                         <p> dimulai dari harga 1JT </p>
+                        </div>
+                     </li>
+                     <li class="content-reason-1"> 
+                        <div class="img-reason-2">
+                            <img src="assets/image/coffee.svg" alt="" class="gambar-1">
+                        </div>
+                        <div class="isi-content-reason"> 
+                            <h3> Menu yang variatif </h3>
+                            <p>  dapatkan beraneka macam makanan dan minuman  </p>
+                        </div>
+                     </li>
+                     <li class="content-reason-1"> 
+                        <div class="img-reason-2">
+                            <img src="assets/image/bonus.svg" alt="" class="gambar-1">
+                        </div>
+                        <div class="isi-content-reason"> 
+                            <h3>  Banyak bonus  </h3>
+                            <p>  dapatkan bonus berlimpah dengan pembelian terbanyak  </p>
+                        </div>
+                     </li>
+                </ul>
+            </article>
+            <article class="kontak" id="kontak">
+                <h2> Kontak Kami </h2>
+                 <div class="kontak-kami">
+                     <div class="info">
+                        <table> 
+                            <tr> 
+                               <td>  <i class="far fa-envelope"></i> food@truck.com   </td> 
+                            </tr>
+                            <tr> 
+                                <td> <i class="fas fa-map-marker"></i> Bekasi </td> 
+                             </tr>
+                             <tr> 
+                                <td> <i class="fas fa-phone-square-alt"></i> 081231412 </td> 
+                             </tr>
+                        </table>
+                     </div>
+                     <div class="info-kirim">
+                        <table> 
+                            <tr> 
+                               <td> Nama  </td> 
+                            </tr>
+                            <tr> 
+                                <td> Email </td> 
+                             </tr>
+                             <tr> 
+                                <td> Pesan </td> 
+                             </tr>
+                        </table>
+                        <button class="kirim"> Kirim </button>
+                     </div>
+                 </div>
+            </article>
+        </div>
+            <aside class="biodata" id="tentang">  
+                <h2> Tentang Saya </h2>
+                <article class="isi-biodata">
+                     <div class="img-bio"> 
+                         <img src="assets/image/wanda.jpg" alt="" class="gambar-2">
+                     </div>
+                     <div class="bio-diri"> 
+                    <p> Wanda Aulia </p>
+                    <p> <i class="far fa-envelope"></i> wandaul16@gmail.com </p> 
+                    <p> <i class="fas fa-map-marker"></i> Bekasi </p> 
+                    </div>
+                </article>
+            </aside>
+        </main>
+        <footer>
+            &copy; 2021 Wanda 
+        </footer>
+
+
+        <script src="script.js">  </script>
+    </body>
+
+</html>
+
